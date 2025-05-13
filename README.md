@@ -10,6 +10,8 @@ This is an updated version of the game "Labyrinth", [described here](https://iva
 
 Open link above for detailed description of rules, mission etc.
 
+![Image](https://github.com/user-attachments/assets/f84ecc1d-b39d-4b1a-8643-4909ec746241 "Screenshot")
+
 To run the game, you must first run the interpreter (java version 11 or higher): java -jar Liscript.jar
 
 The interpreter window opens, when opened, the standard language library (standard_library.liscript file) automatically loads into it.
