@@ -1,0 +1,7 @@
+;; shadow-cljs configuration
+
+{:dependencies [[reagent "1.2.0"]]
+ :source-paths ["src/cljs"]
+ :builds {:client {:target     :browser
+                   :output-dir "resources/public/js"
+                   :modules    {:app {:init-fn labyrinth.core/init}}}}}

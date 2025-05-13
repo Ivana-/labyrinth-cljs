@@ -1,0 +1,90 @@
+:root {
+    --lead-color: #4fbdd1;
+}
+
+html {
+    color: #0c1112;
+    min-height: 100%;
+}
+
+body {
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.app {
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-component {
+    display: flex;
+    width: fit-content;
+    align-items: start;
+    gap: 30px;
+}
+
+.block-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px
+}
+
+.input-label {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.inputs-panel {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 5px;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+.settings-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 120px);
+    gap: 1rem;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    border: unset;
+}
+
+.control-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    border: unset;
+}
+
+.bold2rem {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.bold3rem {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.bold4rem {
+    font-weight: bold;
+    font-size: 4rem;
+}

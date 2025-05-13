@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- https://redketchup.io/favicon-generator -->
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="style/main.css" type="text/css">
+
+    <!-- loader spinner -->
+    <style>
+      .loader {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        /* width: 14rem;
+        height: auto;
+        margin-left: -7rem;
+        margin-top: -7rem; */
+        margin-left: -60px;
+        margin-top: -60px;
+        width: 120px;
+        height: 120px;
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #3498db;
+        -webkit-animation: spin 2s linear infinite;
+        /* Safari */
+        animation: spin 2s linear infinite;
+      }
+
+      /* Safari */
+      @-webkit-keyframes spin {
+        0% {
+          -webkit-transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(360deg);
+        }
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app" class="app">
+      <div class="loader">
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
