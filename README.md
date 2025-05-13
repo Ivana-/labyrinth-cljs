@@ -12,11 +12,6 @@ Open link above for detailed description of rules, mission etc.
 
 ![Image](https://github.com/user-attachments/assets/f84ecc1d-b39d-4b1a-8643-4909ec746241 "Screenshot")
 
-To run the game, you must first run the interpreter (java version 11 or higher): java -jar Liscript.jar
-
-The interpreter window opens, when opened, the standard language library (standard_library.liscript file) automatically loads into it.
-To start the game, click the leftmost "Open" button and select the Labyrinth.liscript file in the Demo folder. Or click righter one with the same pic to see the code in editor pane and then click "Run code" blue button.
-
 Changes from previous version:
 
 - moves animation when map is shown, to clarify the game behaviour for not experienced users.
@@ -36,13 +31,6 @@ So now you have at least 3 ways/missions to play:
 - once you have reconstructed map and do know your position on it, try first mission, but without showing the map.
 
 Good luck with even small maps with some mirrors & inner walls and have fun! :)
-
-PS: all source codes are distributed on free-use terms, references to the interpreter and related resources:
-
-[Liscript java github page](https://github.com/Ivana-/Liscript-GUI-Java-Swing)
-
-[Liscript java github wiki](https://github.com/Ivana-/Liscript-GUI-Java-Swing/wiki/Liscript-short-overview)
-
 
 ## Setup
 
